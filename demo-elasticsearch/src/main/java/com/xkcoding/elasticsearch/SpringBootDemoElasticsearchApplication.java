@@ -21,6 +21,7 @@ public class SpringBootDemoElasticsearchApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootDemoElasticsearchApplication.class, args);
         //test5
+        //test6
     }
 
 }
