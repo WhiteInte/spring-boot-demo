@@ -8,7 +8,8 @@
 			<level>INFO</level>
 		</filter>
 		<encoder>
-			<pattern>${CONSOLE_LOG_PATTERN}</pattern>
+<!--			<pattern>${CONSOLE_LOG_PATTERN}</pattern>-->
+      <pattern>%d{HH:mm:ss} [%thread][%X{traceId}] %-5level %logger{36} - %msg%n</pattern>
 			<charset>UTF-8</charset>
 		</encoder>
 	</appender>
@@ -43,6 +44,8 @@
 		<!--</triggeringPolicy>-->
 		<encoder>
 			<pattern>${FILE_LOG_PATTERN}</pattern>
+
+<!--      <pattern>%d{HH:mm:ss} [%thread][%X{traceId}] %-5level %logger{36} - %msg%n</pattern>-->
 			<charset>UTF-8</charset> <!-- 此处设置字符集 -->
 		</encoder>
 	</appender>

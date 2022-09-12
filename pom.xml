@@ -71,6 +71,7 @@
     <module>demo-flyway</module>
     <module>demo-pay</module>
       <module>demo-sleuth</module>
+      <module>demo-bean-copy</module>
   </modules>
   <packaging>pom</packaging>
 
