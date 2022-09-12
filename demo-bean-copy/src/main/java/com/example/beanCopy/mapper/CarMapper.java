@@ -5,6 +5,7 @@ import com.example.beanCopy.entity.CarDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
+import org.springframework.stereotype.Component;
 
 /**
  * @author by itw_yangning01
@@ -13,6 +14,7 @@ import org.mapstruct.factory.Mappers;
  * @Date 2022/9/12 17:48:00
  */
 @Mapper
+@Component
 public interface CarMapper {
 
     CarMapper INSTANCE = Mappers.getMapper( CarMapper.class );
